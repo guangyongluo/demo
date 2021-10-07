@@ -1,4 +1,4 @@
-package com.vilin.demo.log;
+package com.vilin.jcl.log;
 
 import org.junit.Test;
 
@@ -118,7 +118,7 @@ public class TestJUL {
         logManager.readConfiguration(resourceAsStream);
 
         //创建日志记录器
-        Logger logger = Logger.getLogger("com.vilin.demo.log");
+        Logger logger = Logger.getLogger("com.vilin");
         logger.setLevel(Level.ALL);
 
         logger.severe("severe");
