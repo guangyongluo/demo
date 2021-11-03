@@ -1,2 +1,6 @@
 # idea file
 .idea
+*.iml
+
+# compile folder
+target
